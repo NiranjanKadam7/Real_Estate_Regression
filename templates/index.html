@@ -1,0 +1,65 @@
+<html>
+<head>
+
+
+<title> Python app </title>
+<style >
+
+form{
+  text-align: center;
+}
+input[type=Submit]{
+  background-color: green;
+  color: white;
+  width: 80px
+}
+select{
+  width: 100%
+}
+label{
+  font-size: 20px;
+  display :inline-block;
+  width :300px;
+  text-align: right;
+}
+</style>
+</head>
+
+<body>
+
+
+<center><h1> Real Estate Regression </h1></center>
+<center><h2> house price of unit area : {{results}}</h2></center>
+<form method="POST", action = "{{url_for('predict')}}" >
+
+<label for="transaction_date">Transaction Date</label>
+<input type="number" id="transaction_date" name="transaction_date" required = 'required' placeholder="Enter Mean Integrated"></input>
+<br></br>
+
+<label for="houseage">Houseage</label>
+<input type="number" id="houseage" name="houseage" required = 'required'  placeholder="Enter SD"></input>
+<br></br>
+
+<label for="distance_to_the_nearest_MRT_station"> Distance to the nearest MRT station </label>
+<input type="number" id="distance_to_the_nearest_MRT_station" name="distance_to_the_nearest_MRT_station" required = 'required'  placeholder="Enter KE"></input>
+<br></br>
+
+<label for="number_of_convenience_stores"> Number of_Convenience_Stores </label>
+<input type="number" id="number_of_convenience_stores" name="number_of_convenience_stores" required = 'required'   placeholder="Enter skewness"></input>
+<br></br>
+
+<label for="latitude"> Latitude </label>
+<input type="number" id="latitude" name="latitude" required = 'required'  placeholder="Enter value of Mean_DMSNR_Curve"></input>
+<br></br>
+
+<label for="longitude"> Longitude </label>
+<input type="number" id="longitude"  name="longitude",required = 'required'  placeholder="Enter value of SD_DMSNR_Curve"></input>
+<br></br>
+
+<input  type = "SUBMIT" for="predict" ></input>
+
+</form>
+</body>
+
+
+</html>
