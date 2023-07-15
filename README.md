@@ -6,7 +6,7 @@ I started this as a practice project by importing the dataset from kaggle.This p
 
 It is record of 415 houses in which features like Transaction date, Age of the house, distance from nearest MRT station, number of convenience, latitude, longitude and the dependent feature is house price per unit area.
 
-Dataset link - https://github.com/NiranjanKadam7/Titanic_Survival_Prediction/blob/main/TitanicTrainingData.csv
+Dataset link - https://github.com/NiranjanKadam7/Real_Estate_Regression/blob/main/Real%20estate.csv
 
 ## Libraries Used
  - Pandas
