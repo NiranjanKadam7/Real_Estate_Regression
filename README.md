@@ -1,4 +1,4 @@
-**Real Estate Price Prediction**
+# **Real Estate Price Prediction**
 
 I started this as a practice project by importing the dataset from kaggle.This project aim is to predict the price of the property based on various features.This is Regression problem.
 
