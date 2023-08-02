@@ -19,3 +19,6 @@ Dataset link - https://github.com/NiranjanKadam7/Real_Estate_Regression/blob/mai
  - Real Estate.csv: Training Dataset
  - app.py: Flask API file
  - index.html
+
+## Web Application
+![Screenshot (469)](https://github.com/NiranjanKadam7/Real_Estate_Regression/assets/107809278/37387fcf-2d33-4774-8466-f540b8baefde)
